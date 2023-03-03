@@ -53,11 +53,6 @@ document.getElementById('btn-review').addEventListener('click', function(){
     const nameField = document.getElementById('name-field').value;
     const messageField = document.getElementById('message-field').value;
 
-    if(nameField || messageField !== String){
-        alert('Please Provide valid name or message!');
-        return;
-    }
-
     const reviewContainer = document.getElementById('review-container');
     const review = document.createElement('div');
     review.innerHTML = `
