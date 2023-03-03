@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mitzaa-Your Favourite Food Corner</title>
+</head>
+
+<body>
+    <header class="shadow-xl">
+        <div class="flex justify-between items-center py-5 mx-6 md:w-9/12 md:mx-auto">
+            <div>
+                <a href="index.html"><h2 class="text-2xl md:text-3xl font-bold">Mitzaa</h2></a>
+            </div>
+            <div>
+                <ul class="flex gap-3 md:gap-6">
+                    <li class="font-semibold md:text-xl"><a href="index.html">Home</a></li>
+                    <li class="font-semibold md:text-xl"><a href="food.html" class="active">Foods</a></li>
+                    <li class="font-semibold md:text-xl"><a href="review.html">Reviews</a></li>
+                    <li class="font-semibold font-lg md:text-xl"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="w-9/12 mx-auto my-12">
+            <h1 class="text-3xl md:text-5xl font-bold text-center mb-8">Reviews</h1>
+            <div id="review-container" class="grid gap-6">
+                <div class="bg-pink-50 p-8 rounded-lg">
+                    <div class="flex gap-4">
+                        <img class="w-8" src="images/user.png" alt="">
+                        <h3 class="text-3xl font-semibold">Sadia Yeasmin</h3>
+                    </div>
+                    <p class="text-xl pl-12 py-1">Hey! I have received my parcel on time. The food was delicious. Thank You.</p>
+                    <div class="flex pl-12">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt=""> 
+                      </div>
+                </div>
+    
+                <div class="bg-pink-50 p-8 rounded-lg">
+                    <div class="flex gap-4">
+                        <img class="w-8" src="images/user.png" alt="">
+                        <h3 class="text-3xl font-semibold">Nadia Akther</h3>
+                    </div>
+                    <p class="text-xl pl-12 py-1">The food was delicious and the delivery men was well mannered. Thank You.</p>
+                    <div class="flex pl-12">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt=""> 
+                      </div>
+                </div>
+    
+                <div class="bg-pink-50 p-8 rounded-lg">
+                    <div class="flex gap-4">
+                        <img class="w-8" src="images/user.png" alt="">
+                        <h3 class="text-3xl font-semibold">Md. Abul Mia</h3>
+                    </div>
+                    <p class="text-xl pl-12 py-1">Your service is super fast. I got my parcel in 2hours. Thank You.</p>
+                    <div class="flex pl-12">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt="">
+                        <img class="w-5" src="images/star.png" alt=""> 
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="my-12 rounded-lg">
+                <div class="bg-pink-100 p-12 flex flex-col justify-center gap-2 items-center">
+                    <input id="name-field" class="mb-4 w-full md:w-2/3 mx-auto p-3 rounded-lg" type="text" placeholder="Name">
+                    <textarea name="" id="message-field" class="mb-4 w-full md:w-2/3 mx-auto p-3 rounded-lg" cols="30" rows="3" placeholder="Message"></textarea>
+                    <div class="card-actions justify-start">
+                        <button id="btn-review" class="btn bg-pink-400 text-black border-0 hover:bg-pink-300"
+                            style="transition: 0.5s;">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-pink-100">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-12 w-9/12 mx-auto">
+            <div>
+                <h2 class="text-2xl font-bold py-4">Get In Touch</h2>
+                <div class="flex gap-4 py-2">
+                    <a href="https://www.facebook.com/afrojaakther.mitu.733/"><img class="w-6"
+                            src="images/facebook.png"></a>
+                    <p>Afroja Akther Mitu</p>
+                </div>
+
+                <div class="flex gap-4 py-2">
+                    <a href="https://www.instagram.com/__afroja_akther_mitu__"><img class="w-6"
+                            src="images/instagram.png"></a>
+                    <p>afroja_akther_mitu</p>
+                </div>
+                <div class="flex gap-4 py-2">
+                    <a href="afrozamitulive@gmail.com"><img class="w-6" src="images/email.png"></a>
+                    <p>afrojaakthermituu@gmail.com</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold py-4">Your Feedback</h2>
+                <input class="w-full p-4 rounded-lg" type="text" placeholder="Feedback">
+                <div class="card-actions justify-start py-4">
+                    <button class="btn bg-pink-400 text-black border-0 hover:bg-pink-300"
+                        style="transition: 0.5s;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/mitzaa.js"></script>
+</body>
+
+</html>
