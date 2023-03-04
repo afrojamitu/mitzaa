@@ -74,6 +74,10 @@ document.getElementById('btn-review').addEventListener('click', function(){
     reviewContainer.appendChild(review);
 });
 
+function feedback(){
+    const ptag = document.getElementById('p-tag');
+    ptag.classList.remove('hidden');
+}
 
 function btnContact(){
     const confirm = document.getElementById('confirm');
