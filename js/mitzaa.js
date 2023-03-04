@@ -72,4 +72,10 @@ document.getElementById('btn-review').addEventListener('click', function(){
     </div>
     `;
     reviewContainer.appendChild(review);
-})
+});
+
+
+function btnContact(){
+    const confirm = document.getElementById('confirm');
+    confirm.classList.remove('hidden');
+}
